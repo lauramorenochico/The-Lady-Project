@@ -1,8 +1,8 @@
 .header{
-background-color: #A8B6F4;
+/*background-color: #A8B6F4;*/
 border-bottom: solid 3px #4a547b;
-//background-image: url('../../images/6354.jpg');
-//background-size: cover;
+
+
 
 &__title{
     font-size: 99px;
@@ -34,6 +34,7 @@ border-bottom: solid 3px #4a547b;
     height: 60px;
     border-radius: 7px;
     margin-right:15px;
+    font-family: 'Montserrat', sans-serif;
    
     }
 &--btn {
@@ -42,6 +43,8 @@ border-bottom: solid 3px #4a547b;
     background-color: #4a547b;
     border-radius: 7px;
     color: #E9EFFF;
+    font-family: 'Montserrat',
+            sans-serif;
     } 
         &--btn:hover {
         background-color:#E9EFFF;
@@ -58,6 +61,8 @@ border-bottom: solid 3px #4a547b;
     background-color: #4a547b;
     border-radius: 7px;
     color: #E9EFFF;
+    font-family: 'Montserrat',
+            sans-serif;
     }
         &--value:hover {
         background-color: #E9EFFF;

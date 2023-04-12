@@ -1,0 +1,89 @@
+.main {
+  margin-top: 40px;
+  margin-left:90px;
+
+  
+  &__paragraph {
+    border: solid 2px #4a547b;
+    padding: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 22px;
+    padding-top: 10px;
+    border-radius: 7px;
+    width: 1000px;
+    /* Ancho máximo del contenedor */
+    overflow-wrap: break-word;
+    /* Rompe las palabras cuando el texto llega al ancho máximo */
+    box-shadow: 2px 2px 4px rgb(114, 129, 188);
+    background-color: #e9efff;
+    
+  }
+
+  &__title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 33px;
+    padding-top: 20px;
+    padding-left: 220px;
+  }
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    padding-top: 20px;
+    grid-gap: 37px;
+    justify-content: flex-start;
+    &--btn {
+      font-family: "Montserrat", sans-serif;
+      font-size: 33px;
+      background-color: #4a547b;
+      border-radius: 7px;
+      color: #e9efff;
+      padding: 20px;
+    }
+  }
+  
+}
+
+
+.arrowRight {
+  position: relative;
+  margin: 20px;
+  width: 150px;
+  height: 44px;
+  background: #4a547b;
+  border: solid 1px #4a547b;
+  float: left;
+  color: #e9efff;
+  display: flex;
+  justify-content: space-evenly;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  padding-top: 8px;
+  padding-left:5px;
+    box-shadow: 2px 2px 4px rgb(114, 129, 188);
+}
+
+.arrowRight:before,
+.arrowRight:after {
+  border-bottom: 25px solid transparent;
+  border-top: 20px solid transparent;
+  top: -1px;
+  content: " ";
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+
+}
+
+.arrowRight:after {
+  border-left: 16px solid #4a547b;
+  right: -15px;
+  z-index: 2;
+}
+
+.arrowRight:before {
+  border-left: 16px solid #4a547b;
+  right: -16px;
+  z-index: 1;
+    
+}
