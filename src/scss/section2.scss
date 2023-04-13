@@ -30,14 +30,26 @@
     position: relative;
     margin-top: -200px;
   }
+}
+
+.list{
+background-color:#e9efff ;
+padding-bottom: 20px;
+width:500px;
+margin-left: 90px;
+border-radius: 7px;
+border: solid 2px #4a547b;
+box-shadow: 3px 3px 5px rgb(114, 129, 188);
+
+
   &__title {
     font-family: "Montserrat", sans-serif;
     font-size: 19px;
     margin-left: 90px;
-    background-color: #e9efff;
+    background-color: #4a547b;
     padding-top: 10px;
     border-radius: 7px;
-    border: solid 2px #4a547b;
+    color:#e9efff;
     width: 250px;
     display: flex;
     justify-content: center;
@@ -59,108 +71,206 @@
   padding-top: 20px;
   margin-right: 70px;
   &__title {
-    font-family: "Montserrat",
-        sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 44px;
-    color:#4a547b;
+    color: #4a547b;
     display: flex;
     justify-content: center;
   }
-&__title2{
+  &__title2 {
     font-size: 40px;
     color: #4a547b;
-    font-family:'Mr Dafoe',
-        cursive;
-        position: relative;
-        top: -50px;
-        left:1050px;
-}
-
- 
+    font-family: "Mr Dafoe", cursive;
+    position: relative;
+    top: -50px;
+    left: 1050px;
+  }
   &__tecnica {
     font-family: "Montserrat", sans-serif;
     font-size: 18px;
     border: solid 2px #4a547b;
-    padding:20px;
+    padding: 20px;
     font-family: "Montserrat", sans-serif;
     padding-top: 10px;
     border-radius: 7px;
     width: 1000px;
     overflow-wrap: break-word;
-    box-shadow: 2px 2px 4px rgb(114, 129, 188);
+    box-shadow: 3px 3px 5px rgb(114, 129, 188);
     background-color: #e9efff;
     margin-bottom: 20px;
-    margin-top: -70px;
+    margin-top: -254px;
     padding-top: 20px;
-  }
-  &__fragmento {
-    font-family: "Montserrat", sans-serif;
-    font-size: 16px;
-    border-bottom: 3px dotted;
-    border-top: 3px dotted;
-    padding-top: 20px;
-    padding-left: 70px;
   }
 }
+
+.verticalLines {
+  width: 1px;
+  float: left;
+  height: 392px;
+  margin-left: 35px;     
+  position:relative;
+  right: -1080px;
+  top:-440px;
+
+ 
+  &__fragmento {
+    font-family: "Delicious Handrawn", cursive;
+    font-size: 25px;
+    width: 790px;
+    height: 370px;
+    padding-top: 10px;
+    padding-left: 50px;
+    background-color: #fafafa;
+    border: 2px solid #cecece;
+    box-shadow: 3px 3px 5px rgb(26, 27, 32);
+    
+     &--text {
+      border-bottom: 2px solid #cecece;
+      margin-bottom: -15px;
+    //border-left: 1px solid green;
+    }
+  }
+}
+.clip {
+    width: 5%;
+    position: relative;
+    top: -95px;
+    right: -1800px;
+    z-index:900;
+}
+
+
 .review {
   display: flex;
   flex-direction: row;
-  margin-left: 70px;
+  margin-left: 30px;
+  margin-right: -20px;
   justify-content: space-between;
-  gap: 30px;
-
-  &__text {
-    width: 900px;
+  gap: 80px;
+    background-color: rgb(253, 249, 244);
+    padding-left:20px;
+    padding-right: 20px;
+    box-shadow: 3px 3px 5px rgb(26, 27, 32);
+    border-radius: 7px;
+  &__text1 {
+    width: 1000px;
     font-family: "Montserrat", sans-serif;
-    font-size: 16px;
+    font-size: 18px;
+    margin-top:30px;
+    margin-left: -60px;
+  }  
+  &__text1:first-letter {
+    font-size: 30px;
+    color:#4a547b;
+    background-color:#e9efff ;
+    border: solid 2px #4a547b;
+  }
+
+  &__text{
+    width: 1000px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    margin-top:5px;
+    margin-left: -60px;
   }
   &__img {
-    width: 80%;
-    padding-top: 10px;
+    width: 100%;
+    padding-top: 100px;
+    
   }
 }
 
 //aqui empieza la flecha
 .arrowRight {
-    position: relative;
-        margin-left: -44px;
-        margin-top: -57px;
-        width: 180px;
-        height: 40;
-        background: #4a547b;
-        border: solid 1px #4a547b;
-        float: left;
-        color: #e9efff;
-        display: flex;
-        font-family: "Montserrat", sans-serif;
-        font-size: 20px;
-        padding: 10px;
-        /* padding-top: 10px; */
-        box-shadow: 2px 2px 4px #7281bc;
+  position: relative;
+  margin-left: -44px;
+margin-top: -54px;
+    width: 250px;
+    height: 25px;
+    background: #4a547b;
+    border: solid 1px #4a547b;
+    float: left;
+    color: #e9efff;
+    display: flex;
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    padding: 5px 10px 10px 10px;
+    /* padding-top: 10px; */
+    box-shadow: 2px 2px 4px #7281bc;
 }
 
 .arrowRight:before,
 .arrowRight:after {
-    border-bottom: 25px solid transparent;
-    border-top: 22px solid transparent;
-    top: -1px;
+  border-bottom: 22px solid transparent;
+  border-top: 22px solid transparent;
+  top: -1px;
+  content: " ";
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+}
+
+.arrowRight:after {
+  border-left: 16px solid #4a547b;
+  right: -15px;
+  z-index: 2;
+}
+
+.arrowRight:before {
+  border-left: 16px solid #4a547b;
+  right: -16px;
+  z-index: 1;
+}
+
+//flecha hacia abajo
+.arrowBottom {
+    position: relative;
+    margin: 20px 20px 20px -20px;
+    width: 63px;
+    height: 350px;
+    background: #d1d1d1;
+    border: solid 1px #999;
+    float: left;
+    background: #4a547b;
+    border: solid 1px #4a547b;
+    box-shadow: 2px 2px 4px rgb(114, 129, 188);
+    margin-left: -52px;
+   
+    
+}
+
+.arrowBottom:before,
+.arrowBottom:after {
+    border-left: 32px solid transparent;
+    border-right: 31px solid transparent;
+    left: -1px;
     content: " ";
     position: absolute;
     display: block;
     width: 0;
     height: 0;
-
 }
 
-.arrowRight:after {
-    border-left: 16px solid #4a547b;
-    right: -15px;
+.arrowBottom:after {
+    border-top: 16px solid #4a547b;
+    bottom: -16px;
     z-index: 2;
 }
 
-.arrowRight:before {
-    border-left: 16px solid #4a547b;
-    right: -16px;
+.arrowBottom:before {
+    border-top: 16px solid #4a547b;
+    bottom: -17px;
     z-index: 1;
+}
+
+.arrowBottom__text{
+text-orientation: upright;
+writing-mode: vertical-rl;
+color: #e9efff;
+font-family: "Montserrat", sans-serif;
+font-size:45px;
+padding-left:2px;
+padding-right: 3px;
 
 }
