@@ -3,17 +3,7 @@
   margin-right: 70px;
 }
 .sec2 {
-  /*font-size: 44px;
-    font-family: 'Mr Dafoe', cursive;
-    border: solid 2px #4a547b;
-    box-shadow: 2px 2px 4px rgb(114, 129, 188);
-    background-color: #4a547b;
-    border-radius: 7px;
-    color: #E9EFFF;
-    width: 300px;
-    display: flex;
-    justify-content: center;*/
-  position: relative;
+    position: relative;
   top: 70px;
 
   &__img {
@@ -25,7 +15,8 @@
   }
 
   &__paragraph {
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Noto Serif TC',
+        serif;
     font-size: 19px;
     position: relative;
     margin-top: -200px;
@@ -40,10 +31,10 @@ margin-left: 90px;
 border-radius: 7px;
 border: solid 2px #4a547b;
 box-shadow: 3px 3px 5px rgb(114, 129, 188);
-
-
+margin-bottom: 40px;
   &__title {
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Noto Serif TC',
+        serif;
     font-size: 19px;
     margin-left: 90px;
     background-color: #4a547b;
@@ -59,38 +50,48 @@ box-shadow: 3px 3px 5px rgb(114, 129, 188);
     }
     &--li {
       list-style: none;
-      font-family: "Montserrat", sans-serif;
+      font-family: 'Noto Serif TC',
+        serif;
       font-size: 19px;
       margin-left: 90px;
     }
   }
 }
 
+.container{
+    background-color: #7281BC;
+    border-radius: 7px;
+    padding-bottom: 50px;
+}
 .ficha {
   margin-left: 90px;
   padding-top: 20px;
   margin-right: 70px;
   &__title {
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Noto Serif TC',
+        serif;
     font-size: 44px;
-    color: #4a547b;
+    color: #343a56;
     display: flex;
     justify-content: center;
+    text-shadow: 2px 2px 4px rgb(233, 239, 255);
   }
   &__title2 {
-    font-size: 40px;
-    color: #4a547b;
+    font-size: 44px;
+    color: #343a56;
     font-family: "Mr Dafoe", cursive;
     position: relative;
     top: -50px;
     left: 1050px;
+    text-shadow: 2px 2px 4px rgb(233, 239, 255);
   }
   &__tecnica {
     font-family: "Montserrat", sans-serif;
     font-size: 18px;
     border: solid 2px #4a547b;
     padding: 20px;
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Noto Serif TC',
+        serif;
     padding-top: 10px;
     border-radius: 7px;
     width: 1000px;
@@ -154,7 +155,8 @@ box-shadow: 3px 3px 5px rgb(114, 129, 188);
     border-radius: 7px;
   &__text1 {
     width: 1000px;
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Noto Serif TC',
+        serif;
     font-size: 18px;
     margin-top:30px;
     margin-left: -60px;
@@ -168,14 +170,15 @@ box-shadow: 3px 3px 5px rgb(114, 129, 188);
 
   &__text{
     width: 1000px;
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Noto Serif TC',
+        serif;
     font-size: 18px;
     margin-top:5px;
     margin-left: -60px;
   }
   &__img {
     width: 100%;
-    padding-top: 100px;
+    padding-top: 200px;
     
   }
 }
@@ -201,7 +204,7 @@ margin-top: -54px;
 
 .arrowRight:before,
 .arrowRight:after {
-  border-bottom: 22px solid transparent;
+  border-bottom: 23px solid transparent;
   border-top: 22px solid transparent;
   top: -1px;
   content: " ";
@@ -273,4 +276,12 @@ font-size:45px;
 padding-left:2px;
 padding-right: 3px;
 
+}
+
+.fa-solid{
+    font-size:50px;
+    color:#4a547b;
+    position: relative;
+    top: 1350px;
+    right:40px;
 }
