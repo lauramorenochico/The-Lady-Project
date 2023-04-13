@@ -1,0 +1,149 @@
+.div{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+&__boceto1{
+width: 40%;
+}
+&__text1{
+font-family: 'Noto Serif TC', serif;
+font-size: 44px;
+margin-left: 320px;
+position: relative;
+top:-150px;
+}
+}
+
+
+
+.div {
+    display: flex;
+    flex-direction: column;
+
+
+    &__boceto2 {
+        width: 25%;
+        position: relative;
+        left: 1000px;
+        top: -1000px;
+    }
+
+    &__text2 {
+        font-family: 'Noto Serif TC', serif;
+        font-size: 44px;
+        margin-left: 320px;
+        position: relative;
+        top: -1050px;
+        left: 800px;
+    }
+}
+
+.div {
+    display: flex;
+    flex-direction: column;
+
+
+    &__boceto3 {
+        width: 30%;
+        position: relative;
+        left: 1000px;
+        top: -1000px;
+    }
+
+    &__text3 {
+        font-family: 'Noto Serif TC', serif;
+        font-size: 44px;
+        margin-left: 320px;
+        position: relative;
+        top: -1100px;
+        left: 800px;
+    }
+}
+
+.div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    &__boceto4 {
+        width: 25%;
+        position: relative;
+        left: 250px;
+        top: -2000px;
+    }
+
+    &__text4 {
+        font-family: 'Noto Serif TC', serif;
+        font-size: 44px;
+        margin-left: 320px;
+        position: relative;
+        top: -2000px;
+    }
+}
+
+.div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    &__boceto5 {
+        width: 25%;
+        position: relative;
+        left: 250px;
+        top: -2000px;
+    }
+
+    &__text5 {
+        font-family: 'Noto Serif TC', serif;
+        font-size: 44px;
+        margin-left: 320px;
+        position: relative;
+        top: -2000px;
+    }
+}
+
+.div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    &__boceto7 {
+        width: 20%;
+        position: relative;
+        left: 1100px;
+        top: -3650px;
+    }
+
+    &__text7 {
+        font-family: 'Noto Serif TC', serif;
+        font-size: 44px;
+        margin-left: 320px;
+        position: relative;
+        top: -3640px;
+        left:900px;
+        
+    }
+}
+
+.div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    &__boceto6 {
+        width: 50%;
+        position: relative;
+        left: 500px;
+        top: -1900px;
+    }
+
+    &__text6 {
+        font-family: 'Noto Serif TC', serif;
+        font-size: 44px;
+        margin-left: 320px;
+        position: relative;
+        top: -1950px;
+        left: 500px;
+
+    }
+}

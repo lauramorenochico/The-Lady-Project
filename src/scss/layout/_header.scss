@@ -58,7 +58,6 @@ height: 35%;
 &__sketch{
     text-decoration: none;
     margin-top:6px;
-    &--value{
     font-size: 33px;
     height: 60px;
     background-color: #4a547b;
@@ -67,12 +66,12 @@ height: 35%;
     font-family: 'Montserrat',
             sans-serif;
     }
-        &--value:hover {
+        &__sketch:hover {
         background-color: #E9EFFF;
         color: #4a547b;
         }
 }
-}
+
 
 
 
