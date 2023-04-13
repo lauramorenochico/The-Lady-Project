@@ -1,54 +1,128 @@
 .main {
-  margin-top: 40px;
-  margin-left:90px;
+  margin-top: 70px;
+  height: min-content;
+ 
+    &__img {
+    //transform: scaleX(-1);
+    margin-left:1150px ;
+    position: relative;
+    top: -80px;
+    left: -430px;
+    z-index: 900;
+    width: 15%;
+    transform: rotate(12deg);
 
+    //transform:rotate(-20deg) ;
+  }
   
   &__paragraph {
     border: solid 2px #4a547b;
     padding: 20px;
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Noto Serif TC',
+      serif;
     font-size: 22px;
     padding-top: 10px;
     border-radius: 7px;
-    width: 1000px;
+    width: 700px;
     /* Ancho máximo del contenedor */
     overflow-wrap: break-word;
     /* Rompe las palabras cuando el texto llega al ancho máximo */
     box-shadow: 2px 2px 4px rgb(114, 129, 188);
     background-color: #e9efff;
-   
-    
+    position:relative;
+    top:-450px;
+    margin-left: 90px;
   }
 
+
+
+/*.containerGrid {
+  margin-top: 90px;
+  border: solid 2px #4a547b;
+  width:500px;
+  position: relative;
+    left: 1100px;
+    top: -800px;*/
+
   &__title {
-    font-family: "Montserrat", sans-serif;
-    font-size: 33px;
-    padding-top: 20px;
-    padding-left: 220px;
+    font-family: "Montserrat",
+      sans-serif;
+      color:#4a547b;
+    font-size: 44px;
+    padding-top: 40px;
+    //padding-left: 120px;
+    position: relative;
+    left: 1100px;
+    top:-700px;
   }
   &__grid {
     display: grid;
-    grid-template-columns: repeat(4, auto);
-    padding-top: 20px;
-    grid-gap: 37px;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+    padding-top: 30px;
+    grid-gap: 50px;
     justify-content: flex-start;
+    position: relative;
+      left: 1200px;
+      top: -700px;
     &--btn {
-      font-family: "Montserrat", sans-serif;
-      font-size: 33px;
+      font-family: "Montserrat",
+        sans-serif;
+      font-size: 32px;
       background-color: #4a547b;
       border-radius: 7px;
       color: #e9efff;
-      padding: 20px;
+      padding: 25px;          
+
     }
   }
-  
 }
+
+.encuesta {
+  background-color: #A8B6F4;
+  position: relative;
+  top: -750px;
+  margin-left: 90px;
+  background-size: cover;
+  width:900px; 
+  height: 200px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    box-shadow: 2px 2px 4px rgb(114, 129, 188);
+
+    &__title{
+      font-family: "Montserrat",
+          sans-serif;
+      font-size: 25px;
+      color: #e9efff;
+      padding-bottom: 20px;
+    }
+    &--input{
+      font-family: 'Noto Serif TC',
+          serif;
+      font-size: 22px;
+      margin-bottom:50px;
+    }
+ 
+   &--btn{
+    font-family: "Montserrat",
+        sans-serif;
+      font-size: 32px;
+      background-color: #4a547b;
+      border-radius: 7px;
+      color: #e9efff;
+      padding: 10px;
+      position: relative;
+      top: 30px;
+   }
+    } 
+
 
 
 //aqui empieza la flecha
 .arrowRight {
   position: relative;
-  margin: 20px;
+  margin: 48px 20px 10px 48px;
   width: 150px;
   height: 44px;
   background: #4a547b;
@@ -62,6 +136,9 @@
   padding-top: 8px;
   padding-left:5px;
     box-shadow: 2px 2px 4px rgb(114, 129, 188);
+    position: relative;
+    top: 1px;
+    z-index: 900;
 }
 
 .arrowRight:before,
