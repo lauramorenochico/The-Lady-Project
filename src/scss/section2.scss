@@ -1,23 +1,36 @@
 .section2 {
 margin-left: 90px;
+margin-right: 70px;
 }
 .sec2 {
-    font-size: 44px;
+    font-size: 22px;
     font-family: 'Mr Dafoe', cursive;
-    border: solid 2px #4a547b;
-    box-shadow: 2px 2px 4px rgb(114, 129, 188);
-    background-color: #4a547b;
-    border-radius: 7px;
-    color: #E9EFFF;
+    //border: solid 2px #4a547b;
+    //box-shadow: 2px 2px 4px rgb(114, 129, 188);
+    //background-color: #4a547b;
+    //border-radius: 7px;
+    color: #4a547b;
     width: 300px;
     display: flex;
     justify-content: center;
+    position: relative;
+   top: 90px;
+   left: 38px;
    
+    &__img {
+        width: 60%;
+        /* transform: rotate(-45deg); */
+        position: relative;
+        top: -180px;
+        left:-50px;
+    }
 
     &__paragraph {
         font-family: "Montserrat",
             sans-serif;
         font-size: 19px;
+        position: relative;
+        margin-top: -200px;
         
     }
     &__title{
@@ -50,6 +63,7 @@ margin-left: 90px;
 .ficha{
     margin-left: 90px;
     padding-top:20px;
+    margin-right: 70px;
     &__title{
     font-family: "Montserrat",
             sans-serif;
@@ -81,7 +95,7 @@ margin-left: 90px;
         font-size: 16px;
      }
      &__img{
-        width:70%;
+        width:80%;
         padding-top:10px;
      }
 }
